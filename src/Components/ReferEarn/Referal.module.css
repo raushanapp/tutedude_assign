@@ -1,0 +1,128 @@
+.referalContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid green;
+  margin-top: 100px;
+  padding: 20px 30px;
+}
+.referEarn {
+  display: flex;
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+.refemoney {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+  width: 486px;
+  height: 188px;
+  background: #ffffff;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.moneyDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.walletMoney > p {
+  width: 111px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+  margin-top: 10px;
+}
+.walletMoney > h1 {
+  width: 116px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-top: -20px;
+}
+.withdraw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 40px;
+  padding: 8px 16px;
+  background: #800080;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.buttonWithdraw {
+  width: 148px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.referCode {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: -25px;
+}
+.codeName {
+  width: 228px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+  margin-top: -20px;
+}
+.alphabet {
+  border: 1px solid #800080;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  border-radius: 15px;
+  margin-top: -10px;
+}
+.alphabet > p {
+  width: 230px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  color: #800080;
+}

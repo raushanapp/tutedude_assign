@@ -1,0 +1,65 @@
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  height: 73.03px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+.logo {
+  /* position: absolute; */
+  width: 160px;
+  height: 63px;
+  left: 74px;
+  top: 6px;
+}
+.rightDiv {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  width: 45%;
+}
+.rightDiv > p {
+  font-size: 18px;
+  line-height: 123.5%;
+  text-align: center;
+  color: rgba(128, 0, 128, 0.25);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+.profile_logo {
+  /* position: absolute; */
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  /* background: #800080; */
+}
+.profile > select {
+  font-size: 18px;
+  line-height: 123.5%;
+  text-align: center;
+  color: #800080;
+  border: none;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+}
+@media screen and (min-width: 375px)  {
+     
+}

@@ -1,9 +1,12 @@
+import { Navbar } from "./Components/Navbar/Navbar";
+import { Referal } from "./Components/ReferEarn/Referal";
 
 function App() {
   return (
-    <div >
-      <h1>TuteDude</h1>
-    </div>
+    <>
+      <Navbar />
+      <Referal/>
+    </>
   );
 }
 
