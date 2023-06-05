@@ -56,6 +56,7 @@ export const HowDoesWorks = () => {
               </div>
             </div>
           </div>
+          {/* ------ */}
           <div className={styles.purchasesCourse}>
             <div className={styles.purchaseContainer}>
               <button className={styles.purchasesBtn}>

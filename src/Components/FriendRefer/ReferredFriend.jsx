@@ -1,9 +1,24 @@
 // import { useParams, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./ReferredFriend.module.css";
 
 export const ReferredFriend = () => {
+    const navigate=useNavigate()
+   
   return (
     <div className={styles.container}>
+      <p
+        className={styles.breadCrumb}
+      >{`UI/UX > Refer & Earn > Friends Referred`}</p>
+      <div className={styles.goback}>
+              <img
+                  onClick={()=>navigate("/")}
+          className={styles.arrowImg}
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX///8AAAA6Ojr7+/urq6vS0tKurq7W1tbOzs7T09Ph4eH4+Pj19fWVlZUiIiLe3t5JSUm4uLhSUlKmpqaampro6Oh7e3sSEhIeHh5CQkJfX1+Pj49qampHR0e3t7dRUVFaWlrBwcEkHRGsAAACoUlEQVR4nO3dCVLDMAyF4RgoBdrSlbWs978khemwxh4nOKP66f9OoDeWooRMSdMAAAAAAAAAAAAAAAAImI7Xs83rlXUZg5lsL8OHl3PrUoYx3+d7N7MuZgij8N21dTnlnYWf1tYFlfY7YAhT65LKGv0JKDaKLQHDkXVRJf1t0Z0bobXYdoI7F9Z1FRMJqJOwtUV3blUuprGAYWFdWSGxFg3hxLq0MuIBb6xLKyPaoiGcWddWRPwEw6l1bUXIB0y0qHxAjctookU1Ap47blH5gBotKj+Dnveg/AnKB5RvUfmAGi2auJPRCMgM1k5+BtmDtaNFa+e5ReUDyreofEBatAq0aO1YE7WTn0FevtSOGayd5z0of4LyAeVbVD6gRovKv3zhVq128jMovyYSAdfN8YHpEzDRomFxdGju7rfzcid4qB46/aQjsSYOWIff5VxY19pT/s/HHq1L7Sn7lzlP1pX2tsxM+GxdaG+rvIAT6zr/YZKVcG5d5j/kXU4r3IWfRlkJa90V7/LOUH8Om5V1nb1lXkubpXWhveXuw2ZhXWlPz7kBq73WdPi3BvLPFlVG7PZ8WNsz/uP9rPs/bUicosbfaZpmHI+o8bc2B6/VXER00KiJiCqn6KBR5d9euJhF+ffALmZR/mU3S0MDS0MBs6jA9yyqnCI3cApYGgocNKrvpeEgooNGVYnIU78CB43qICJLQ4GDRuUGTgFP/Qq4gVPgoFFZGgqYRQW+Z5FTrEYiosb3nlI3cCLf7ErNosooxhtV5dt58Ygy3z+MN6rMNyyjlxuhhO2NqvQt2faId9ZFldUyi1rfdG47RZ1L6d7vX77JLPwvPxv12rqcIcwvdYdwb7LdZ3wZW5cymOn4ZLN5lVqEAAAAAAAAAAAAAAAAaW9PZSptxNPyHgAAAABJRU5ErkJggg"
+          alt="arrow"
+        />
+        <p className={styles.textArrow}>go back</p>
+      </div>
       <div className={styles.yourCode}>
         <div className={styles.referCode}>
           <p className={styles.textCode}>Your Referral Code</p>
@@ -92,6 +107,7 @@ export const ReferredFriend = () => {
             <div className={styles.halfBox}>
               <div className={styles.title}>
                 <h2 className={styles.referName}>Prafull Kumar</h2>
+                <p className={styles.date1}>16 Sep, 2022</p>
               </div>
               <p className={styles.couresEnrollHalf}>Courses Enrolled(23)</p>
               <div className={styles.skillsFlex}>

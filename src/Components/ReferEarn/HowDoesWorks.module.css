@@ -1,13 +1,13 @@
-.headerTitle{
-    width: 224px;
-height: 36px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 36px;
-margin-left:-820px;
-color: #800080;
+.headerTitle {
+  width: 224px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: -820px;
+  color: #800080;
 }
 .container {
   /* border: 1px solid brown; */
@@ -71,7 +71,7 @@ color: #800080;
   margin-left: -25px;
 }
 .getReferral {
-    margin-left: 5px;
+  margin-left: 5px;
   width: 264px;
   height: 24px;
   font-family: "Poppins";
@@ -93,28 +93,28 @@ color: #800080;
   margin-left: 15px;
   margin-top: -10px;
 }
-.walletBold{
-width: 231px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin-left: -28px;
+.walletBold {
+  width: 231px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: -28px;
 }
-.walletNormal{
-    width: 274px;
-height: 48px;
-margin-left: 15px;
-margin-top: -10px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #4D4D4D;
+.walletNormal {
+  width: 274px;
+  height: 48px;
+  margin-left: 15px;
+  margin-top: -10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
 }
 .purchasesCourse {
   display: flex;
@@ -124,68 +124,270 @@ color: #4D4D4D;
   gap: 5px;
   margin-top: -115px;
 }
-.purchaseContainer{
-    width: 80%;
+.purchaseContainer {
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 15px;
 }
-.purchasesBtn{
-border: none;
+.purchasesBtn {
+  border: none;
   border-radius: 50%;
   width: 65px;
   height: 65px;
   background: rgba(217, 217, 217, 0.25);
 }
-.friendPurchases{
-    display: flex;
+.friendPurchases {
+  display: flex;
   width: 60%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.friendBold{
-    width: 244.62px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin-left: -25px;
+.friendBold {
+  width: 244.62px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: -25px;
 }
-.friendNormal{
- width: 268.76px;
-height: 48px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #4D4D4D;
-margin-top: -10px;
+.friendNormal {
+  width: 268.76px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin-top: -10px;
 }
-.discountBold{
-width: 231px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin-left: -40px;
+.discountBold {
+  width: 231px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: -40px;
 }
-.discountNormal{
-    width: 274px;
-height: 48px;
-margin-top: -10px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #4D4D4D;
+.discountNormal {
+  width: 274px;
+  height: 48px;
+  margin-top: -10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+
+@media screen and (min-width:0px) and (max-width:375px) {
+  .headerTitle {
+  width: 224px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+}
+  .container {
+  /* border: 2px solid  rgb(82, 34, 138); */
+  display: flex;
+  width: 360px;
+  align-items: center;
+  gap: 10px;
+  margin-top: -40px;
+  justify-content: space-between;
+  flex-direction:column ;
+
+}
+.referFriends {
+  display: flex;
+  /* border: 1px solid blue; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  flex-direction: column;
+}
+.insideFriendBox {
+  width: 100%;
+  /* border: 1px solid rgb(10, 7, 7); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inviteBtn {
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background: rgba(217, 217, 217, 0.25);
+}
+
+.textInvite {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 5px; */
+}
+.inviteBold {
+  width: 151.22px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  /* margin-left: -95px; */
+}
+.ptags {
+  width: 220px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin-top: -10px;
+  margin-left: -25px;
+}
+.getReferral {
+  margin-left: 5px;
+  width: 264px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.onTotal {
+  width: 274.17px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin-left: 15px;
+  margin-top: -10px;
+}
+.walletBold {
+  width: 231px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: -28px;
+}
+.walletNormal {
+  width: 274px;
+  height: 48px;
+  margin-left: 15px;
+  margin-top: -10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+.purchasesCourse{
+  display: flex;
+  /* border: 1px solid #03cf70; */
+  width: 370px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 210px;
+  gap: 5px;
+  margin-top: 5px;
+}
+.purchaseContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.purchasesBtn {
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background: rgba(217, 217, 217, 0.25);
+}
+.friendPurchases {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.friendBold {
+  width: 244.62px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: -25px;
+}
+.friendNormal {
+  width: 268.76px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin-top: -10px;
+}
+.discountBold {
+  width: 231px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: -40px;
+}
+.discountNormal {
+  width: 274px;
+  height: 48px;
+  margin-top: -10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+
 }

@@ -10,13 +10,19 @@ export const Navbar = () => {
           <p>My Assignment</p>
           <p>Chat with Mento</p>
           <div className={styles.profile}>
-            <img src={profileLogo} className={styles.profile_log} alt="profile" />
+            <img
+              src={profileLogo}
+              className={styles.profile_log}
+              alt="profile"
+            />
             <select name="" id="">
               <option value="profile">ProfileName</option>
             </select>
           </div>
         </div>
-            <button className={styles.btnName} >ProfileName</button>
+        <div className={styles.btnBox}>
+          <button className={styles.btnName}>ProfileName</button>
+        </div>
       </div>
     );
 }

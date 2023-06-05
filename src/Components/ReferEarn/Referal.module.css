@@ -6,7 +6,7 @@
   gap: 20px;
   width: 80%;
   margin: auto;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 100px;
   padding: 20px 30px;
 }
@@ -21,6 +21,7 @@
 }
 .refemoney {
   display: flex;
+  /* border: 1px solid brown; */
   justify-content: space-around;
   align-items: center;
   gap: 5px;
@@ -32,10 +33,12 @@
   border-radius: 20px;
 }
 .moneyDiv {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 140px 140px 140px;
   justify-content: space-around;
+  padding: 10px 15px;
   align-items: center;
+  /* border: 1px solid red; */
   gap: 5px;
 }
 
@@ -126,28 +129,175 @@
   letter-spacing: 1.5em;
   color: #800080;
 }
-.referFriend{
-width: 168px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #800080;
-text-decoration: none;
-margin-left: -800px;
-margin-top: 30px;
+.referFriend {
+  width: 168px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+  text-decoration: none;
+  margin-left: -800px;
+  margin-top: 30px;
 }
-.termCondition{
-width: 159px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #800080;
-margin-left: -810px;
-margin-top: -10px;
+.termCondition {
+  width: 159px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+  margin-left: -810px;
+  margin-top: -10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  
+  .referEarn {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+  }
+  .refemoney {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    /* flex-direction: row; */
+    width: 358px;
+    height: 198px;
+    background: #ffffff;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  .moneyDiv {
+    display: grid;
+    grid-template-columns: 154px 154px;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    /* flex:auto; */
+    gap: 5px;
+  }
+  .withdraw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    /* padding: 8px 16px; */
+    background: #800080;
+    border-radius: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 100px;
+    margin-top: -100px;
+  }
+  .buttonWithdraw {
+    width: 148px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .walletMoney > p {
+    width: 111px;
+    height: 21px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    margin-top: 10px;
+  }
+  .walletMoney > h1 {
+    width: 116px;
+    height: 48px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: -20px;
+  }
+  .referCode {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: -25px;
+}
+.codeName {
+  width: 228px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+  margin-top: -20px;
+}
+.alphabet {
+  border: 1px solid #800080;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  border-radius: 15px;
+  margin-top: -10px;
+}
+.alphabet > p {
+  width: 230px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  color: #800080;
+}
+.referFriend {
+  width: 168px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+  text-decoration: none;
+  margin-left: -120px;
+  /* margin-top: -30px; */
+}
+.termCondition {
+  width: 159px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+  margin-left:-120px;
+  /* margin-top: -10px; */
+}
 }

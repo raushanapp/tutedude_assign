@@ -1,4 +1,4 @@
-import { Breadcrumb } from "../BreadCrumb/BreadCrumb";
+import { Breadcrumb } from "../BeadCrumb/BreadCrumb";
 import { HowDoesWorks } from "./HowDoesWorks";
 import styles from "./Referal.module.css";
 import { Link } from "react-router-dom";
