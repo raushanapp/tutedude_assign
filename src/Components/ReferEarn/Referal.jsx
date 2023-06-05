@@ -1,9 +1,11 @@
+import { Breadcrumb } from "../BreadCrumb/BreadCrumb";
 import { HowDoesWorks } from "./HowDoesWorks";
 import styles from "./Referal.module.css";
-
+import { Link } from "react-router-dom";
 export const Referal = () => {
   return (
     <div className={styles.referalContainer}>
+       <Breadcrumb/>
       <div className={styles.referEarn}>
         <div className={styles.refemoney}>
           <div className={styles.moneyDiv}>
@@ -32,7 +34,9 @@ export const Referal = () => {
         </div>
       </div>
       {/* how does its works  */}
-      <HowDoesWorks/>
+      <HowDoesWorks />
+      <Link  className={styles.referFriend} to="/refer-friend" >Friends Who Enrolled</Link>
+      <p className={styles.termCondition}>Terms & Conditions</p>
     </div>
   );
 };

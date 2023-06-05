@@ -126,3 +126,28 @@
   letter-spacing: 1.5em;
   color: #800080;
 }
+.referFriend{
+width: 168px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #800080;
+text-decoration: none;
+margin-left: -800px;
+margin-top: 30px;
+}
+.termCondition{
+width: 159px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #800080;
+margin-left: -810px;
+margin-top: -10px;
+}

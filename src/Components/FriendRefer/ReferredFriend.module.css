@@ -1,0 +1,338 @@
+.container {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 100px;
+  padding: 10px 15px;
+}
+.yourCode {
+  display: flex;
+  /* border: 1px solid blue; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.referCode,
+.walletBalance {
+  display: flex;
+  width: 20%;
+  /* border: 1px solid brown; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.textCode {
+  width: 150px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+.btn {
+  border: 1px solid #626262;
+  width: 154px;
+  border-radius: 10px;
+  background: none;
+  height: 52px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75em;
+  color: #000000;
+  padding: 15px 18px;
+  margin-top: -25px;
+}
+.walletBalance {
+  width: 145px;
+  height: 85px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.textBalance {
+  width: 105px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+  margin-top: 20px;
+}
+.money {
+  width: 45px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: -10px;
+  margin-left: -40px;
+}
+
+/* enroll friend */
+.enrolledFriend {
+  display: flex;
+  /* border: 1px solid yellow; */
+  width: 100%;
+  justify-content: space-around;
+  gap: 10px;
+  flex-direction: column;
+}
+.headerEnroll {
+  width: 241px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #800080;
+  margin-left: 50px;
+}
+.friendName {
+  display: flex;
+  /* border: 1px solid #000000; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+.DhirajSaxsena,
+.SubhashMishra {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  width: 358px;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  color: #ffffff;
+}
+.title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.referName {
+  width: 124px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.date {
+  width: 83px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.couresEnroll {
+  width: 141px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: -10px;
+  margin-left: -150px;
+}
+.skillsGrid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 28% 35% 35%;
+  grid-template-rows: 21px 21px 21px;
+  align-items: center;
+  margin-left: -40px;
+  margin-bottom: 25px;
+}
+.skillsGrid > p {
+  border: 1px solid #ffffff;
+  padding: 2px 5px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.referAmount {
+  width: 170px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -20px;
+  margin-left: -115px;
+}
+.skillsFlex {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+  /* border: 1px solid #FFFFFF; */
+  /* gap: 5px; */
+}
+.insideFlexBox2,
+.insideFlexBox1 {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.insideFlexBox1 {
+  margin-top: -15px;
+  margin-left: -50px;
+}
+.insideFlexBox2 {
+  margin-top: -20px;
+  margin-left: -50px;
+}
+.insideFlexBox2 > p {
+  border: 1px solid #ffffff;
+  padding: 2px 5px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.insideFlexBox1 > p {
+  border: 1px solid #ffffff;
+  padding: 2px 5px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.PrafullKumar {
+  display: flex;
+  width: 358px;
+  height: 228px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.halfBox {
+  flex-direction: column;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  width: 200px;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  /* margin-bottom: 25px; */
+}
+.couresEnrollHalf {
+  width: 148px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 35px;
+  margin-top: -10px;
+}
+.insideFlexBox3,
+.insideFlexBox4 {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.insideFlexBox3 > p {
+  border: 1px solid #ffffff;
+  padding: 2px 5px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.insideFlexBox4 > p {
+  border: 1px solid #ffffff;
+  padding: 2px 5px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.insideFlexBox3 {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+.insideFlexBox4 {
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.referAmount1 {
+  width: 170px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -10px;
+  margin-left: 30px;
+}
+.term {
+  text-align: left;
+  width: 100%;
+  margin-left: 60px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
